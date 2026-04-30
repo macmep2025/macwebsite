@@ -1,0 +1,87 @@
+.clients-section {
+  background-color: var(--surface);
+  padding: 5rem 0;
+  overflow: hidden; /* Important for marquee */
+}
+
+.marquee-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.marquee {
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+}
+
+.marquee-content {
+  display: flex;
+  gap: 2rem;
+  animation: scroll 80s linear infinite;
+  padding-left: 2rem;
+}
+
+.marquee-reverse .marquee-content {
+  animation: scroll-reverse 80s linear infinite;
+}
+
+/* Pause animation on hover */
+.marquee-content:hover {
+  animation-play-state: paused;
+}
+
+.marquee-item {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all var(--transition);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-decoration: none;
+  border: 2px solid transparent;
+}
+
+.marquee-item:hover {
+  transform: scale(1.05);
+  border-color: var(--primary);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  z-index: 2;
+}
+
+.marquee-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transition: transform var(--transition);
+}
+
+.marquee-item:hover .marquee-img {
+  transform: scale(1.05);
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-50% - 1rem)); } /* -50% shifts by exactly half the container */
+}
+
+@keyframes scroll-reverse {
+  0% { transform: translateX(calc(-50% - 1rem)); }
+  100% { transform: translateX(0); }
+}
+
+@media (max-width: 768px) {
+  .marquee-item {
+    width: 150px;
+    height: 100px;
+    padding: 1rem;
+  }
+}
