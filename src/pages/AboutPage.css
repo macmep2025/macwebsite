@@ -103,8 +103,30 @@
   line-height: 1.8;
 }
 
+.ceo-image {
+  flex: 0 0 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.ceo-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
 @media (max-width: 768px) {
   .vm-grid {
     grid-template-columns: 1fr;
+  }
+  .ceo-profile {
+    flex-direction: column;
+    text-align: center;
+  }
+  .ceo-image {
+    flex: 0 0 auto;
+    width: 250px;
   }
 }

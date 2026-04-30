@@ -25,7 +25,7 @@ const Navbar = () => {
           <Link to="/" onClick={() => setMobileMenuOpen(false)}>Home</Link>
           <Link to="/about" onClick={() => setMobileMenuOpen(false)}>About Us</Link>
           <Link to="/projects" onClick={() => setMobileMenuOpen(false)}>Projects</Link>
-          <a href="/#contact" onClick={() => setMobileMenuOpen(false)} className="btn nav-btn">Contact Us</a>
+          <Link to="/contact" onClick={() => setMobileMenuOpen(false)} className="btn nav-btn">Contact Us</Link>
         </div>
 
         <button className="mobile-toggle" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
