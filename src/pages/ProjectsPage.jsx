@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import BackButton from '../components/BackButton';
 import projectsData from '../data/projectsData.json';
 import './ProjectsPage.css';
 
@@ -10,6 +11,7 @@ const ProjectsPage = () => {
 
   return (
     <div className="page-wrapper">
+      <BackButton to="/" label="Back to Home" />
       <div className="page-header">
         <h1>Our <span>Projects</span></h1>
         <p>Explore our extensive portfolio across various divisions in the UAE and beyond.</p>

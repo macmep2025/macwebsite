@@ -1,10 +1,12 @@
 import React from 'react';
 import About from '../components/About';
+import BackButton from '../components/BackButton';
 import './AboutPage.css';
 
 const AboutPage = () => {
   return (
     <div className="page-wrapper">
+      <BackButton to="/" label="Back to Home" />
       <div className="page-header">
         <h1>About <span>MAC MEP</span></h1>
         <p>Discover our history, mission, and the people behind our success.</p>

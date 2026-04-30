@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import { useParams, Link, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
+import BackButton from '../components/BackButton';
 import projectsData from '../data/projectsData.json';
 import './ProjectDetailsPage.css';
 
@@ -28,11 +29,9 @@ const ProjectDetailsPage = () => {
   return (
     <div className="project-details-page">
       <div className="details-header" style={{ backgroundImage: `url(${project.src})` }}>
+        <BackButton to="/projects" label="Back to Projects" />
         <div className="details-overlay">
           <div className="container">
-            <Link to="/projects" className="back-link">
-              &larr; Back to Projects
-            </Link>
             <h1 className="details-title">{project.text}</h1>
             <span className="details-badge">{division.toUpperCase()} DIVISION</span>
           </div>
