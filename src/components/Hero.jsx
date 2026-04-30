@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="hero-bg">
         <video 
           ref={videoRef}
-          src="/hero_video.mp4" 
+          src={`${import.meta.env.BASE_URL}hero_video.mp4`} 
           autoPlay 
           muted={isMuted} 
           loop 

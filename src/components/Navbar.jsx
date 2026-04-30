@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled glass' : ''}`}>
       <div className="container nav-container">
         <Link to="/" className="logo">
-          <img src="/logo.png" alt="MAC Logo" className="logo-img" />
+          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="MAC Logo" className="logo-img" />
         </Link>
         
         <div className={`nav-links ${mobileMenuOpen ? 'active glass' : ''}`}>
