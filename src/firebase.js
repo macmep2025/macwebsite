@@ -4,7 +4,7 @@ import { getAuth } from "firebase/auth";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyChbqvmrt-gPBNZyok04PNoWEJzUa_XzkE",
+  apiKey: "AIzaSyChbqvmrt-gPBNZyoK04PNoWEJzUa_XzkE",
   authDomain: "mac-mep-website.firebaseapp.com",
   projectId: "mac-mep-website",
   storageBucket: "mac-mep-website.firebasestorage.app",
