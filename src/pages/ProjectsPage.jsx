@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import BackButton from '../components/BackButton';
-import projectsData from '../data/projectsData.json';
+import { useSiteContent } from '../context/SiteContext';
 import './ProjectsPage.css';
 
 const ProjectsPage = () => {
   const [activeTab, setActiveTab] = useState('commercial');
+  const { content } = useSiteContent();
 
-  const currentProjects = projectsData[activeTab] || [];
+  const currentProjects = (content && content.projects && content.projects[activeTab]) ? content.projects[activeTab] : [];
 
   return (
     <div className="page-wrapper">

@@ -1,14 +1,13 @@
 import React from 'react';
 import './Projects.css';
-import projectImg from '../assets/img/project_img.png';
+import { useSiteContent } from '../context/SiteContext';
 
 const Projects = () => {
-  const projects = [
-    { name: "CAVALLI COUTURE", desc: "2B+G+M+16 Floors + RF", tag: "High-Rise" },
-    { name: "DAMAC HILLS", desc: "Luxury Villas MEP Fitout", tag: "Villas" },
-    { name: "DUBAI MALL EXTENSION", desc: "Commercial MEP Services", tag: "Commercial" },
-    { name: "ROYAL ATLANTIS", desc: "Specialized Mechanical Works", tag: "Hospitality" },
-  ];
+  const { content } = useSiteContent();
+  if (!content || !content.projects) return null;
+
+  // Grab the first 4 commercial projects to feature on the homepage
+  const featuredProjects = content.projects.commercial.slice(0, 4);
 
   return (
     <section id="projects" className="projects-section">
@@ -16,13 +15,12 @@ const Projects = () => {
         <h2 className="section-title">Featured <span>Projects</span></h2>
         
         <div className="projects-grid">
-          {projects.map((proj, idx) => (
+          {featuredProjects.map((proj, idx) => (
             <div className="project-card" key={idx}>
-              <img src={projectImg} alt={proj.name} className="project-img" />
+              <img src={proj.src} alt={proj.alt || 'Featured project'} className="project-img" />
               <div className="project-overlay glass">
-                <span className="project-tag">{proj.tag}</span>
-                <h3>{proj.name}</h3>
-                <p>{proj.desc}</p>
+                <span className="project-tag">Commercial</span>
+                <h3>{proj.text}</h3>
               </div>
             </div>
           ))}

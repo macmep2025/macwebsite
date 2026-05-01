@@ -1,14 +1,17 @@
 import React, { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import BackButton from '../components/BackButton';
-import projectsData from '../data/projectsData.json';
+import { useSiteContent } from '../context/SiteContext';
 import './ProjectDetailsPage.css';
 
 const ProjectDetailsPage = () => {
   const { division, id } = useParams();
   const navigate = useNavigate();
+  const { content, loading } = useSiteContent();
   
-  const projectList = projectsData[division];
+  if (loading) return null;
+
+  const projectList = content && content.projects ? content.projects[division] : null;
   const project = projectList ? projectList[parseInt(id)] : null;
 
   useEffect(() => {

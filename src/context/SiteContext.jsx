@@ -18,7 +18,15 @@ export const SiteProvider = ({ children }) => {
         const docSnap = await getDoc(docRef);
 
         if (docSnap.exists()) {
-          setContent(docSnap.data());
+          const fetchedData = docSnap.data();
+          // Merge missing keys (like projects if it's new)
+          const mergedData = { ...defaultContent, ...fetchedData };
+          if (!fetchedData.projects) {
+            mergedData.projects = defaultContent.projects;
+            // Optionally update firestore with the merged data here
+            await setDoc(docRef, mergedData);
+          }
+          setContent(mergedData);
         } else {
           // Push default content if database is empty
           await setDoc(docRef, defaultContent);
