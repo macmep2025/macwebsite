@@ -19,13 +19,11 @@ export const SiteProvider = ({ children }) => {
 
         if (docSnap.exists()) {
           const fetchedData = docSnap.data();
-          // Merge missing keys (like projects if it's new)
+          // Force overwrite projects to use the new local paths we just downloaded
           const mergedData = { ...defaultContent, ...fetchedData };
-          if (!fetchedData.projects) {
-            mergedData.projects = defaultContent.projects;
-            // Optionally update firestore with the merged data here
-            await setDoc(docRef, mergedData);
-          }
+          mergedData.projects = defaultContent.projects; // FORCE OVERWRITE
+          // Update firestore instantly
+          await setDoc(docRef, mergedData);
           setContent(mergedData);
         } else {
           // Push default content if database is empty
