@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { auth, db } from '../firebase';
-import { doc, updateDoc } from 'firebase/firestore';
+import { doc, setDoc } from 'firebase/firestore';
 import { useNavigate } from 'react-router-dom';
 import { useSiteContent } from '../context/SiteContext';
 import toast from 'react-hot-toast';
@@ -75,7 +75,7 @@ const AdminDashboard = () => {
     setSaving(true);
     try {
       const docRef = doc(db, 'site_content', 'main');
-      await updateDoc(docRef, formData);
+      await setDoc(docRef, formData, { merge: true });
       setContent(formData);
       toast.success('Website updated successfully!');
     } catch (error) {
