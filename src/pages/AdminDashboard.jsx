@@ -94,11 +94,11 @@ const AdminDashboard = () => {
 
   return (
     <div style={styles.container}>
-      <div style={styles.header}>
+      <div style={{ ...styles.header, position: 'relative', zIndex: 1001 }}>
         <h2>Admin Dashboard</h2>
-        <div>
-          <button className="btn btn-outline" onClick={handleLogout} style={{ marginRight: '1rem' }}>Logout</button>
-          <button className="btn" onClick={handleSave} disabled={saving}>
+        <div style={{ display: 'flex', gap: '10px' }}>
+          <button className="btn btn-outline" onClick={handleLogout} style={{ padding: '8px 16px', fontSize: '0.9rem' }}>Logout</button>
+          <button className="btn" onClick={handleSave} disabled={saving} style={{ padding: '8px 16px', fontSize: '0.9rem' }}>
             {saving ? 'Saving...' : 'Save All Changes'}
           </button>
         </div>
