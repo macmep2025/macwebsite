@@ -1,9 +1,13 @@
 import React from 'react';
 import About from '../components/About';
 import BackButton from '../components/BackButton';
+import { useSiteContent } from '../context/SiteContext';
 import './AboutPage.css';
 
 const AboutPage = () => {
+  const { content } = useSiteContent();
+  if (!content) return null;
+
   return (
     <div className="page-wrapper">
       <BackButton to="/" label="Back to Home" />
@@ -19,12 +23,12 @@ const AboutPage = () => {
           <div className="vm-grid">
             <div className="vm-card glass">
               <h2>Our <span>Vision</span></h2>
-              <p>MAC's vision is to be the leading Electromechanical company in the UAE region, through excelling in all of our provided services, driven by passion for what we do and dedication.</p>
+              <p>{content.aboutPage.vision}</p>
             </div>
             <div className="vm-card glass">
               <h2>Our <span>Mission</span></h2>
-              <p>It’s our mission to distinguish ourselves by the quality of work we provide. We will accomplish this through delivering high quality, on schedule, and cost effective projects to the public and private sectors.</p>
-              <p>We are a team of talented individuals dedicated to building strong relationships with our clients, vendors, and employees. We maintain an ethical approach to business with honesty, friendliness, and gratitude.</p>
+              <p>{content.aboutPage.mission1}</p>
+              <p>{content.aboutPage.mission2}</p>
             </div>
           </div>
         </div>
@@ -58,14 +62,14 @@ const AboutPage = () => {
           <h2 className="section-title">Our <span>Leadership</span></h2>
           <div className="ceo-profile glass">
             <div className="ceo-image">
-              <img src={`${import.meta.env.BASE_URL}ceo_image.avif`} alt="Eng. Taher Sartawi - CEO" />
+              <img src={`${import.meta.env.BASE_URL}${content.aboutPage.ceoImage}`} alt={`${content.aboutPage.ceoName} - CEO`} />
             </div>
             <div className="ceo-info">
-              <h2>Taher Sartawi</h2>
-              <h4>Chief Executive Officer</h4>
-              <p>Eng. Sartawi is the Chief Executive Officer of MAC Electromechanical.</p>
-              <p>Taher has more than 20 years in the field of electro mechanical construction within the United Arab Emirates area. He has led multi-disciplinary and multi-cultural teams in highly technical and complex environments on several projects. Taher has also developed and implemented business strategies that have led to significant growth in the MEP field.</p>
-              <p>Taher’s areas of expertise include executive management, technical leadership, project management of complex projects, managing diversity, managing change and Engineering, Procurement and Construction (EPC) and Engineering, Procurement and Construction Management (EPCM) projects. Taher holds a bachelor’s degree in Engineering (Thermal and Hydraulic Machine Engineering).</p>
+              <h2>{content.aboutPage.ceoName}</h2>
+              <h4>{content.aboutPage.ceoTitle}</h4>
+              <p>{content.aboutPage.ceoBio1}</p>
+              <p>{content.aboutPage.ceoBio2}</p>
+              <p>{content.aboutPage.ceoBio3}</p>
             </div>
           </div>
         </div>

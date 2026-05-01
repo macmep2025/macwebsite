@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "title": "Delivering <span>High Quality</span> Services With Best Practices",
+    "subtitle": "MAC is a recognized leader in the MEP Field in the UAE, committed to delivering professional Electromechanical Engineering Contracting.",
+    "videoUrl": "hero_video.mp4"
+  },
+  "about": {
+    "title": "20 Years of <span>Combined Experience</span>",
+    "text1": "MAC is one of the leading Electromechanical companies in the UAE, with a portfolio that includes some of biggest Clients and Projects here. Over the last 20 years, MAC has transformed from a small company into a recognized leader in the MEP Field, committed to deliver only the highest quality work.",
+    "text2": "We strive to stay at the forefront as our company grows, embracing any market changes and the needs of our clients. We continuously improve our skill set to separate us from our competition and enhance our loyal clients relationships.",
+    "feature1Title": "Motivation",
+    "feature1Text": "To excel in what we do is what drives us",
+    "feature2Title": "Accountability",
+    "feature2Text": "and Transparency is what distinguish us",
+    "feature3Title": "Commitment",
+    "feature3Text": "To client satisfaction is our prime rule"
+  },
+  "aboutPage": {
+    "vision": "MAC's vision is to be the leading Electromechanical company in the UAE region, through excelling in all of our provided services, driven by passion for what we do and dedication.",
+    "mission1": "It’s our mission to distinguish ourselves by the quality of work we provide. We will accomplish this through delivering high quality, on schedule, and cost effective projects to the public and private sectors.",
+    "mission2": "We are a team of talented individuals dedicated to building strong relationships with our clients, vendors, and employees. We maintain an ethical approach to business with honesty, friendliness, and gratitude.",
+    "ceoName": "Taher Sartawi",
+    "ceoTitle": "Chief Executive Officer",
+    "ceoBio1": "Eng. Sartawi is the Chief Executive Officer of MAC Electromechanical.",
+    "ceoBio2": "Taher has more than 20 years in the field of electro mechanical construction within the United Arab Emirates area. He has led multi-disciplinary and multi-cultural teams in highly technical and complex environments on several projects. Taher has also developed and implemented business strategies that have led to significant growth in the MEP field.",
+    "ceoBio3": "Taher’s areas of expertise include executive management, technical leadership, project management of complex projects, managing diversity, managing change and Engineering, Procurement and Construction (EPC) and Engineering, Procurement and Construction Management (EPCM) projects. Taher holds a bachelor’s degree in Engineering (Thermal and Hydraulic Machine Engineering).",
+    "ceoImage": "ceo_image.avif"
+  }
+}

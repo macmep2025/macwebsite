@@ -1,10 +1,12 @@
 import React, { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import { useSiteContent } from '../context/SiteContext';
 import './Hero.css';
 
 const Hero = () => {
   const [isMuted, setIsMuted] = useState(true);
   const videoRef = useRef(null);
+  const { content } = useSiteContent();
 
   const toggleMute = () => {
     if (videoRef.current) {
@@ -13,12 +15,14 @@ const Hero = () => {
     }
   };
 
+  if (!content) return null;
+
   return (
     <section id="home" className="hero">
       <div className="hero-bg">
         <video 
           ref={videoRef}
-          src={`${import.meta.env.BASE_URL}hero_video.mp4`} 
+          src={`${import.meta.env.BASE_URL}${content.hero.videoUrl}`} 
           autoPlay 
           muted={isMuted} 
           loop 
@@ -32,11 +36,9 @@ const Hero = () => {
       </button>
       
       <div className="container hero-content">
-        <h1 className="hero-title">
-          Delivering <span>High Quality</span> Services With Best Practices
-        </h1>
+        <h1 className="hero-title" dangerouslySetInnerHTML={{ __html: content.hero.title }}></h1>
         <p className="hero-subtitle">
-          MAC is a recognized leader in the MEP Field in the UAE, committed to delivering professional Electromechanical Engineering Contracting.
+          {content.hero.subtitle}
         </p>
         <div className="hero-actions">
           <Link to="/about" className="btn">About Us</Link>
