@@ -210,7 +210,7 @@ const AdminDashboard = () => {
 };
 
 const styles = {
-  container: { padding: '2rem', minHeight: '100vh', background: 'var(--background)' },
+  container: { padding: '100px 2rem 2rem', minHeight: '100vh', background: 'var(--background)' },
   header: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '1rem' },
   tabs: { display: 'flex', gap: '1rem', marginBottom: '2rem' },
   tabBtn: { padding: '10px 20px', background: 'rgba(0,0,0,0.5)', border: '1px solid rgba(255,255,255,0.1)', color: '#fff', borderRadius: '6px', cursor: 'pointer' },
