@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { SiteProvider } from './context/SiteContext';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
@@ -28,7 +28,7 @@ function App() {
         </Routes>
         
         <footer style={{ textAlign: 'center', padding: '2rem', background: '#0d0d0d', color: '#666', borderTop: '1px solid #222' }}>
-          <p>&copy; 2026 MAC Electromechanical Engineering LLC. All Rights Reserved.</p>
+          <p>&copy; 2026 MAC Electromechanical Engineering LLC. All Rights Reserved. | <Link to="/admin" style={{ color: '#666', textDecoration: 'none' }}>Admin Login</Link></p>
         </footer>
       </Router>
     </SiteProvider>
