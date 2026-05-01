@@ -29,286 +29,286 @@
   "projects": {
     "commercial": [
       {
-        "src": "https://static.wixstatic.com/media/21eb4e_3d8e9a549c4f4ffc8cff7ef911037510~mv2.jpg/v1/crop/x_388,y_0,w_1143,h_1080/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/1.jpg",
+        "src": "projects/project_commercial_1.jpg",
         "alt": "1.jpg",
         "text": "ONE CRESCENT Residential Building  ​(B+G+9F+RF)"
       },
       {
-        "src": "https://static.wixstatic.com/media/21eb4e_e8be3ef1e134479a80b33b7eda2a635a~mv2.jpg/v1/crop/x_225,y_0,w_1551,h_1465/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/1668584737damac_cc-2.jpg",
+        "src": "projects/project_commercial_2.jpg",
         "alt": "1668584737damac_cc-2.jpg",
         "text": "CAVALLI COUTURE Residential Building  (2B+G+M+16F+RF)"
       },
       {
-        "src": "https://static.wixstatic.com/media/21eb4e_d4aa96eea77b4c809cbd63fddc1de351~mv2.png/v1/crop/x_155,y_0,w_513,h_485/fill/w_272,h_257,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/AZURA.png",
+        "src": "projects/project_commercial_3.png",
         "alt": "AZURA.png",
         "text": "AZURA Residential Building  (G+2P+14F+RF)"
       },
       {
-        "src": "https://static.wixstatic.com/media/21eb4e_9c481844bc934438a9e48c77aede2c93~mv2.jpg/v1/crop/x_518,y_0,w_1524,h_1440/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/DIA.jpg",
+        "src": "projects/project_commercial_4.jpg",
         "alt": "DIA.jpg",
         "text": "LuzOra Residential Building (G+2P+8F+RF)"
       },
       {
-        "src": "https://static.wixstatic.com/media/21eb4e_ec3ba03185a34bd3bc82926f37ddfc72~mv2.png/v1/crop/x_128,y_0,w_675,h_638/fill/w_272,h_257,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SHORLINE.png",
+        "src": "projects/project_commercial_5.png",
         "alt": "SHORLINE.png",
         "text": "SHORELINE Residential Building (2B+G+16F+RF)"
       },
       {
-        "src": "https://static.wixstatic.com/media/21eb4e_8bae38738d1a4526b4014c6e7ed395f3~mv2.png/v1/fill/w_272,h_257,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/CBC.png",
+        "src": "projects/project_commercial_6.png",
         "alt": "CBC.png",
         "text": "CBC Business Tower  (3B+G+3P+15F+RF)"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_04d04905fdc14d518fef5d933fb58d7d~mv2.png/v1/crop/x_56,y_0,w_259,h_245/fill/w_272,h_257,al_c,lg_1,q_85,enc_avif,quality_auto/05.png",
+        "src": "projects/project_commercial_7.png",
         "alt": "05.png",
         "text": "3 Residential Buildings at Meydan one,  Phase 03"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_dacc1d9f72e446abb1d99b763306e033~mv2.jpg/v1/crop/x_0,y_21,w_768,h_726/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/sky%202.jpg",
+        "src": "projects/project_commercial_8.jpg",
         "alt": "sky 2.jpg",
         "text": "SKY 2 Residential Building  (G+P+8F+HEALTH CLUB)"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_7308c0ed53944d24949c007d2e37ee82~mv2.jpg/v1/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/sky%201.jpg",
+        "src": "projects/project_commercial_9.jpg",
         "alt": "sky 1.jpg",
         "text": "SKY 1 Residential Building  (G+P+8F+HEALTH CLUB)"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_f0b35d6691054d1ea0729e0e7191fc83~mv2.png/v1/crop/x_0,y_15,w_464,h_438/fill/w_272,h_257,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/navitas.png",
+        "src": "projects/project_commercial_10.png",
         "alt": "navitas.png",
         "text": "“Navitas E” ROTANA 4 START Hotel Hotel & Commercial Building (G+13F+RF)"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_5fab336b76a34739a31bf34e29377c2f~mv2.jpg/v1/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/bay%2520marina_edited.jpg",
+        "src": "projects/project_commercial_11.jpg",
         "alt": "bay%20marina_edited.jpg",
         "text": "Bay Marina Facilities Building at Dubai Harbour"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_47ddfacd1aba47cb9a8707d502bc6490~mv2.jpg/v1/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Artboard-1-copy-17%406x-100.jpg",
+        "src": "projects/project_commercial_12.jpg",
         "alt": "Artboard-1-copy-17@6x-100.jpg",
         "text": "Emirates Post Office (G+1)  ​"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_cfe9ea73e4c34081b10830941cd0716e~mv2.jpg/v1/crop/x_67,y_0,w_575,h_543/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/barsha%20n.jpg",
+        "src": "projects/project_commercial_13.jpg",
         "alt": "barsha n.jpg",
         "text": "Residential Building  (B+G+6F+RF)"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_70f80e2c6b4b42d988f612b488845a8e~mv2.jpg/v1/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Hotel%20Apartment%20B%2BG%2B9typ%20for%20Azizi%20Devel.jpg",
+        "src": "projects/project_commercial_14.jpg",
         "alt": "Hotel Apartment B+G+9typ for Azizi Devel",
         "text": "MINA Hotel Apartments  (B+G+9F+RF)"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_e7d4bea560e247df9f6fed926426e9d1~mv2.jpg/v1/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/AURA%20(B%2BG%2B17FLR)%20RESIDENTIAL%20BUILDING_jp.jpg",
+        "src": "projects/project_commercial_15.jpg",
         "alt": "AURA (B+G+17FLR) RESIDENTIAL BUILDING.jp",
         "text": "AURA Residential Building  (B+G+17F+RF)"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_5c965ba278884078b55d6791ce383529~mv2_d_1383_1805_s_2.jpg/v1/crop/x_0,y_249,w_1383,h_1307/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/DU1435_DU1435-PESPECTIVE-7270960.jpg",
+        "src": "projects/project_commercial_16.jpg",
         "alt": "DU1435_DU1435-PESPECTIVE-7270960.jpg",
         "text": "Hessa Residential Tower  (B+G+3P+16F+RF)"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_c69efdfc3a5e474ba1b04991ef1e84c5~mv2.jpg/v1/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ADCI%202.jpg",
+        "src": "projects/project_commercial_17.jpg",
         "alt": "ADCI 2.jpg",
         "text": "ADCI Office Building"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_e5e16d11a4c84fdcbfe39ab567a712dd~mv2.png/v1/fill/w_272,h_257,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.png",
+        "src": "projects/project_commercial_18.png",
         "alt": "Untitled.png",
         "text": "Warehouse and Office Building"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_32e5f81a5d2c47a4b8a04a539f6aa36f~mv2.jpg/v1/crop/x_166,y_0,w_684,h_646/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Proposed%20(G%2B4F%2BR)%20Residential%20Building%20f.jpg",
+        "src": "projects/project_commercial_19.jpg",
         "alt": "Proposed (G+4F+R) Residential Building f",
         "text": "Al Karama Residential Building  (G+4F+RF)"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_97400d04fc484380be251b569a3e5159~mv2.png/v1/fill/w_272,h_257,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Garhoud_edited.png",
+        "src": "projects/project_commercial_20.png",
         "alt": "Garhoud_edited.png",
         "text": "Al Garhoud Residential Building  (2B+G+10F+RF)"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_c72e94f272f649a8bc5183c00af9ece5~mv2.jpg/v1/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Hotel%20Apartment%20Building%20(B%2BG%2B2p%2B10)%20On%20Plot%20Number%20AFRA001.jpg",
+        "src": "projects/project_commercial_21.jpg",
         "alt": "Hotel Apartment Building (B+G+2p+10) On Plot Number AFRA001.jpg",
         "text": "AFRA 001 Hotel Apartments  (B+G+2P+10F+RF)"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_e3fc4dee9d9c440796a0c92210353941~mv2_d_1429_1253_s_2.jpg/v1/crop/x_51,y_0,w_1326,h_1253/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Grand%20Cosmopolitan%20Hotel%20(2P%2BG%2BM%2B6F)%20Pro.jpg",
+        "src": "projects/project_commercial_22.jpg",
         "alt": "Grand Cosmopolitan Hotel (2P+G+M+6F) Pro",
         "text": "Grand Cosmopolitan Hotel  (2P+G+M+6F+RF)"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_ebb2aa82445441008eef94e5c82bca80~mv2.png/v1/fill/w_272,h_257,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Picture123.png",
+        "src": "projects/project_commercial_23.png",
         "alt": "Picture123.png",
         "text": "Residential Buildings (G+3F) - Al Hamriya"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_4ee746493cfd4ac9b586a21540b2b97d~mv2_d_1242_1830_s_2.png/v1/crop/x_0,y_328,w_1242,h_1174/fill/w_272,h_257,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/PARIS%20TOWER.png",
+        "src": "projects/project_commercial_24.png",
         "alt": "PARIS TOWER.png",
         "text": "Paris Tower  (G+6P+18F+RF)  ​"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_6b67f2b67c1c46b18971b254ffea7b0a~mv2.png/v1/fill/w_272,h_257,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/12.png",
+        "src": "projects/project_commercial_25.png",
         "alt": "12.png",
         "text": "Al Mutakamele 2Floors Vehicle Testing Center"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_5054b6c144f34ec9aca456689831f1d9~mv2.jpg/v1/fill/w_272,h_257,al_c,lg_1,q_80,enc_avif,quality_auto/images.jpg",
+        "src": "projects/project_commercial_26.jpg",
         "alt": "images.jpg",
         "text": "AFRA 003 Hotel Apartments (B+G+2P+10F+RF)  ​"
       }
     ],
     "villas": [
       {
-        "src": "https://static.wixstatic.com/media/21eb4e_a511c8ce95b541f89ccb4e89c428d405~mv2.jpg/v1/crop/x_245,y_0,w_1175,h_1110/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/damac-hills-autograph-collection_bSgLb_xl.jpg",
+        "src": "projects/project_villas_1.jpg",
         "alt": "damac-hills-autograph-collection_bSgLb_xl.jpg",
         "text": "Autograph Collection 39 Villas"
       },
       {
-        "src": "https://static.wixstatic.com/media/21eb4e_ea406d143ced44a0a8666c71d2098dca~mv2.jpg/v1/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Utopia-Gallery-00.jpg",
+        "src": "projects/project_villas_2.jpg",
         "alt": "Utopia-Gallery-00.jpg",
         "text": "UTOPIA 31 Villas (GEMS ESTATE 1 & 2)"
       },
       {
-        "src": "https://static.wixstatic.com/media/21eb4e_fe8b726c61a943c186456f67d416136b~mv2.jpg/v1/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/JGE%20Plots%20Community%20Townhouses.jpg",
+        "src": "projects/project_villas_3.jpg",
         "alt": "JGE Plots Community Townhouses.jpg",
         "text": "JGE Plots Community Townhouses (138 Nos)"
       },
       {
-        "src": "https://static.wixstatic.com/media/21eb4e_505a4bb4f5334d6bbf582bf5bc76e06c~mv2.png/v1/crop/x_307,y_0,w_905,h_855/fill/w_272,h_257,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LAMAR.png",
+        "src": "projects/project_villas_4.png",
         "alt": "LAMAR.png",
         "text": "LAMAR 16 (B+G+1) SEA VIEW VILLAS"
       },
       {
-        "src": "https://static.wixstatic.com/media/21eb4e_a95be42944d646059f2033415eb9bf71~mv2.jpeg/v1/crop/x_61,y_0,w_470,h_444/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/MOROCCO.jpeg",
+        "src": "projects/project_villas_5.jpg",
         "alt": "MOROCCO.jpeg",
         "text": "DAMAC LAGOONS MOROCCO 1 (428 TH)"
       },
       {
-        "src": "https://static.wixstatic.com/media/21eb4e_eef883e606364198a23276913a47b43d~mv2.jpeg/v1/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/MARBELLA.jpeg",
+        "src": "projects/project_villas_6.jpg",
         "alt": "MARBELLA.jpeg",
         "text": "DAMAC LAGOONS MARBELLA (264 TH)"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_bd1f88010fda46a8aaa1e0b4938975ff~mv2.png/v1/crop/x_173,y_0,w_677,h_640/fill/w_272,h_257,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.png",
+        "src": "projects/project_villas_7.png",
         "alt": "Untitled.png",
         "text": "Akoya Damac Hills, 32 Veneto Villas  ​"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_be8b3bcf56034ad3b0b5e89f03cf8edb~mv2.jpg/v1/crop/x_0,y_61,w_740,h_699/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/1.jpg",
+        "src": "projects/project_villas_8.jpg",
         "alt": "1.jpg",
         "text": "41 (B+G+1+RF+TRF) CAVALLI Villas  (V55, V75)"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_e4cb7857d6db4d7781eddd11a5b3cdc7~mv2.png/v1/fill/w_272,h_257,al_c,lg_1,q_85,enc_avif,quality_auto/duubuild.png",
+        "src": "projects/project_villas_9.png",
         "alt": "duubuild.png",
         "text": "18 (G+1) Townhouses, 5 (G+1) Portrait Villas and 1 (G+1) Landscape Villa"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_06a0279af3da4b8c88429b835ada0eed~mv2.png/v1/crop/x_104,y_0,w_616,h_582/fill/w_272,h_257,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ABAL.png",
+        "src": "projects/project_villas_10.png",
         "alt": "ABAL.png",
         "text": "(G+1+R) Private Villa  ​"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_bdb6681c070044ceb32b864f5cbd5844~mv2.png/v1/fill/w_272,h_257,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.png",
+        "src": "projects/project_villas_11.png",
         "alt": "Untitled.png",
         "text": "3 (G+1) Villas  ​"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_a4320038865a450098c398b12a530803~mv2.png/v1/fill/w_272,h_257,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.png",
+        "src": "projects/project_villas_12.png",
         "alt": "Untitled.png",
         "text": "Mandarin oriental Maldives - Beach and water villas"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_d53cf8ad646d4cb5a9556aa6976dc629~mv2.png/v1/crop/x_289,y_0,w_772,h_729/fill/w_272,h_257,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.png",
+        "src": "projects/project_villas_13.png",
         "alt": "Untitled.png",
         "text": "2 (B+G+1+Swimming pool) Private Villas"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_e38415fb52464275917766f57553d549~mv2.png/v1/fill/w_272,h_257,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.png",
+        "src": "projects/project_villas_14.png",
         "alt": "Untitled.png",
         "text": "2 (B+G+1) Private Villas"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_ed56269ac98a42299b7626b6827e08b8~mv2.png/v1/crop/x_158,y_0,w_321,h_303/fill/w_272,h_257,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/rafiq.png",
+        "src": "projects/project_villas_15.png",
         "alt": "rafiq.png",
         "text": "(B+G+1+R+Majlis Block+Garage) Private Villa"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_4a7211261d554041b2f63f873a457ba8~mv2.jpeg/v1/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/WhatsApp%20Image%202021-09-17%20at%207_09_15%20PM%20(2).jpeg",
+        "src": "projects/project_villas_16.jpg",
         "alt": "WhatsApp Image 2021-09-17 at 7.09.15 PM (2).jpeg",
         "text": "(B+G+1) FAM Villa"
       },
       {
-        "src": "https://static.wixstatic.com/media/21eb4e_8040c720346f42fd803e00b8fd7829eb~mv2.png/v1/fill/w_272,h_257,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ali%20sijwani.png",
+        "src": "projects/project_villas_17.png",
         "alt": "ali sijwani.png",
         "text": "Private Villa (G+1+2)"
       }
     ],
     "fitout": [
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_9c30ba7f4d1d419a9e93454a6ab27cbf~mv2.jpg/v1/crop/x_273,y_0,w_424,h_401/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/29aa2cf15bc4bed492664d96942d7896.jpg",
+        "src": "projects/project_fitout_1.jpg",
         "alt": "29aa2cf15bc4bed492664d96942d7896.jpg",
         "text": "Planning and Survey Department Building"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_356c9efe3d824f26ab83d9d0197b605d~mv2.png/v1/fill/w_272,h_257,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.png",
+        "src": "projects/project_fitout_2.png",
         "alt": "Untitled.png",
         "text": "ETIHAD OFFICE"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_6ba92dbc12834ef18ed78cd24f975c16~mv2.jpg/v1/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/DAMAN%20HEALTH%20INSURANCE%20COMPANY%20NEW%20HEADQ.jpg",
+        "src": "projects/project_fitout_3.jpg",
         "alt": "DAMAN HEALTH INSURANCE COMPANY NEW HEADQ",
         "text": "DAMAN Office Building"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_470664c46e96422f96cd9eb132f07cb7~mv2.jpg/v1/crop/x_0,y_35,w_1280,h_1209/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/art.jpg",
+        "src": "projects/project_fitout_4.jpg",
         "alt": "art.jpg",
         "text": "Art of Living Mall"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_b4cbca77d65a46429a231c9b79a05796~mv2.jpg/v1/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/LULU.jpg",
+        "src": "projects/project_fitout_5.jpg",
         "alt": "LULU.jpg",
         "text": "LULU Shopping Center (B+G+2F)"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_f246d7c258724cb0beebd23eec33b818~mv2.jpg/v1/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Tilal-Al-Ghaf-eBrochure-019-1740x960-c-c.jpg",
+        "src": "projects/project_fitout_6.jpg",
         "alt": "Tilal-Al-Ghaf-eBrochure-019-1740x960-c-c",
         "text": "TILAL AL GHAF (Machine Room)"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_a5e77ed636f94068a58ae54e2c9a9c3f~mv2.jpg/v1/crop/x_40,y_0,w_428,h_417/fill/w_272,h_265,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ethil_edited.jpg",
+        "src": "projects/project_fitout_7.jpg",
         "alt": "ethil_edited.jpg",
         "text": "ETHEL Chocolate Factory"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_ad03df00d49e4886887e5935815b62d9~mv2.jpg/v1/crop/x_0,y_12,w_900,h_877/fill/w_272,h_265,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IGOO.jpg",
+        "src": "projects/project_fitout_8.jpg",
         "alt": "IGOO.jpg",
         "text": "IGO Group Sales Centre 1"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_ad03df00d49e4886887e5935815b62d9~mv2.jpg/v1/fill/w_272,h_265,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IGOO.jpg",
+        "src": "projects/project_fitout_9.jpg",
         "alt": "IGOO.jpg",
         "text": "IGO Group Sales Centre 2"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_a8044f76d8de4353a5c831518c9671fb~mv2.jpg/v1/crop/x_0,y_6,w_225,h_213/fill/w_272,h_257,al_c,lg_1,q_80,enc_avif,quality_auto/download.jpg",
+        "src": "projects/project_fitout_10.jpg",
         "alt": "download.jpg",
         "text": "The Professor Gents Salon"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_867e5af2c10e402399c404e821ebf3e8~mv2.jpg/v1/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ava.jpg",
+        "src": "projects/project_fitout_11.jpg",
         "alt": "ava.jpg",
         "text": "Ava Aesthetic Clinic"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_7064f67c08264b9384bf4f4a0e0c5da0~mv2.jpg/v1/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/download_edited.jpg",
+        "src": "projects/project_fitout_12.jpg",
         "alt": "download_edited.jpg",
         "text": "UNBOX Offices at API Tower (Phase 1 and 2)"
       },
       {
-        "src": "https://static.wixstatic.com/media/65d4b2_f67c7ff1edf3434aa26a155903757a1e~mv2.jpeg/v1/crop/x_0,y_130,w_808,h_763/fill/w_272,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/WhatsApp%20Image%202023-01-01%20at%204_01_00%20PM.jpeg",
+        "src": "projects/project_fitout_13.jpg",
         "alt": "WhatsApp Image 2023-01-01 at 4.01.00 PM.jpeg",
         "text": "Sleep n’fly Lounge at Dubai Airport Terminal 3"
       }
