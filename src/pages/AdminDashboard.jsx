@@ -10,18 +10,26 @@ const AdminDashboard = () => {
   const [formData, setFormData] = useState(content);
   const [saving, setSaving] = useState(false);
   const [activeTab, setActiveTab] = useState('general');
+  const [githubToken, setGithubToken] = useState('');
   const navigate = useNavigate();
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
       if (!user) navigate('/admin');
     });
+    setGithubToken(localStorage.getItem('githubToken') || '');
     return () => unsubscribe();
   }, [navigate]);
 
   useEffect(() => {
     if (content) setFormData(content);
   }, [content]);
+
+  const handleTokenChange = (e) => {
+    const val = e.target.value;
+    setGithubToken(val);
+    localStorage.setItem('githubToken', val);
+  };
 
   const handleChange = (section, field, value) => {
     setFormData(prev => ({
@@ -71,6 +79,48 @@ const AdminDashboard = () => {
     });
   };
 
+  const handleFileUpload = async (e, category, index) => {
+    const file = e.target.files[0];
+    if (!file) return;
+
+    if (!githubToken) {
+      toast.error('Please enter your GitHub Token in the Settings tab first!');
+      return;
+    }
+
+    const reader = new FileReader();
+    reader.onloadend = async () => {
+      const base64Content = reader.result.split(',')[1];
+      const filename = `${Date.now()}_${file.name.replace(/\s+/g, '_')}`;
+      const path = `public/projects/${filename}`;
+
+      toast.loading('Uploading to GitHub...', { id: 'upload' });
+      try {
+        const response = await fetch(`https://api.github.com/repos/macmep2025/macwebsite/contents/${path}`, {
+          method: 'PUT',
+          headers: {
+            'Authorization': `Bearer ${githubToken}`,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            message: `Upload ${filename} via Admin Panel`,
+            content: base64Content,
+            branch: 'main'
+          })
+        });
+
+        if (!response.ok) throw new Error('GitHub API Error');
+        
+        toast.success('Uploaded successfully!', { id: 'upload' });
+        // Update the form data with the new local path!
+        handleProjectChange(category, index, 'src', `projects/${filename}`);
+      } catch (error) {
+        toast.error('Upload failed. Check your GitHub token permissions.', { id: 'upload' });
+      }
+    };
+    reader.readAsDataURL(file);
+  };
+
   const handleSave = async () => {
     setSaving(true);
     try {
@@ -116,6 +166,12 @@ const AdminDashboard = () => {
           onClick={() => setActiveTab('projects')}
         >
           Manage Projects
+        </button>
+        <button 
+          style={activeTab === 'settings' ? styles.activeTabBtn : styles.tabBtn} 
+          onClick={() => setActiveTab('settings')}
+        >
+          Settings
         </button>
       </div>
 
@@ -194,8 +250,13 @@ const AdminDashboard = () => {
                       <strong>Project #{index + 1}</strong>
                       <button style={styles.deleteBtn} onClick={() => removeProject(category, index)}>Remove</button>
                     </div>
-                    <label style={styles.label}>Image URL</label>
-                    <input style={styles.input} value={project.src} onChange={(e) => handleProjectChange(category, index, 'src', e.target.value)} placeholder="https://..." />
+                    
+                    <label style={styles.label}>Image URL (Or Upload directly to GitHub)</label>
+                    <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
+                      <input style={{...styles.input, flex: 1}} value={project.src} onChange={(e) => handleProjectChange(category, index, 'src', e.target.value)} placeholder="projects/filename.jpg" />
+                      <input type="file" accept="image/*" onChange={(e) => handleFileUpload(e, category, index)} style={{ width: '100px' }} title="Upload Image" />
+                    </div>
+
                     <label style={styles.label}>Title / Description</label>
                     <textarea style={styles.textarea} value={project.text} onChange={(e) => handleProjectChange(category, index, 'text', e.target.value)} rows="2" />
                   </div>
@@ -205,6 +266,27 @@ const AdminDashboard = () => {
           ))}
         </div>
       )}
+
+      {activeTab === 'settings' && (
+        <div className="glass" style={{...styles.section, maxWidth: '600px'}}>
+          <h3 style={styles.sectionTitle}>Admin Settings</h3>
+          <p style={{ color: 'var(--text-muted)', marginBottom: '1rem' }}>
+            To enable the <strong>Upload File</strong> button in the Projects tab, you must provide a GitHub Personal Access Token (PAT). This allows the browser to securely push pictures directly to your `public/projects/` folder on GitHub.
+          </p>
+          <label style={styles.label}>GitHub Personal Access Token (Classic)</label>
+          <input 
+            type="password" 
+            style={styles.input} 
+            value={githubToken} 
+            onChange={handleTokenChange} 
+            placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" 
+          />
+          <p style={{ color: '#ff4444', fontSize: '0.8rem', marginTop: '0.5rem' }}>
+            Note: The token must have "repo" scope. It is saved only in your local browser.
+          </p>
+        </div>
+      )}
+
     </div>
   );
 };
